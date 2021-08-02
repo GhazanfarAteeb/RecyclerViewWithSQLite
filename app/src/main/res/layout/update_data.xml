@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content">
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal">
+		<TextView
+			android:layout_marginStart="10sp"
+			android:textSize="16sp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/name"
+		/>
+		<EditText
+			android:layout_marginLeft="10sp"
+			android:layout_marginRight="10sp"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/update_name"
+			android:autofillHints="null"
+			android:inputType="text" />
+	</LinearLayout>
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal">
+		<TextView
+			android:layout_marginStart="10sp"
+			android:textSize="16sp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/salary"
+		/>
+		<EditText
+			android:layout_marginLeft="10sp"
+			android:layout_marginRight="10sp"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/update_salary"
+			android:autofillHints="null"
+			android:inputType="numberDecimal" />
+	</LinearLayout>
+	
+</LinearLayout>
