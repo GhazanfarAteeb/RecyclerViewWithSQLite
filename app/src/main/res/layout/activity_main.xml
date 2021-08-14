@@ -8,12 +8,8 @@
 	<androidx.recyclerview.widget.RecyclerView
 		android:layout_width="match_parent"
 		android:layout_height="match_parent"
-		app:layout_constraintBottom_toBottomOf="parent"
-		app:layout_constraintEnd_toEndOf="parent"
-		app:layout_constraintStart_toStartOf="parent"
-		app:layout_constraintTop_toTopOf="parent"
 		android:id="@+id/recycler_view"
-		/>
+	/>
 	<com.google.android.material.floatingactionbutton.FloatingActionButton
 		app:fabSize="normal"
 		android:layout_width="wrap_content"
@@ -23,5 +19,5 @@
 		android:contentDescription="@string/add"
 		android:src="@drawable/add"
 		android:id="@+id/fab"
-		/>
+	/>
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
