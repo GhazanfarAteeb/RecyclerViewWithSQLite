@@ -1,7 +1,6 @@
 package com.example.recyclerviewwithsqlite;
 
 import android.content.Context;
-import android.os.Bundle;
 import android.view.ContextMenu;
 import android.view.LayoutInflater;
 import android.view.MenuItem;
@@ -117,7 +116,7 @@ public class EmployeeAdapter extends RecyclerView.Adapter<EmployeeAdapter.ViewHo
 
         }
     }
-
+    //Adding comment
     public interface Data {
         void deleteData(int position);
     }
